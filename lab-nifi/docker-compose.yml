@@ -28,15 +28,6 @@ services:
       - 19000:9000
     environment:
        KAFKA_BROKERCONNECT: kafka:29092
-  
-  db:
-    image: mysql
-    ports:
-      - 3306:3306
-    command: --default-authentication-plugin-mysql_native_password
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: nifitest
 
   nifi:
     image: apache/nifi:latest
