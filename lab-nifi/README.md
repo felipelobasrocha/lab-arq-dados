@@ -65,8 +65,11 @@ Criar Processor PutFile
 /tmp/hello
 ```
 ### No Terminal do Linux dentro do container lab-nifi_kafka1
+Abrir Terminal do container
 ```
 docker exec -it lab-nifi_nifi_1 /bin/bash
+```
+```
 cd ~
 cd /tmp/hello
 ls -ltr
