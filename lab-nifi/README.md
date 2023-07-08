@@ -320,10 +320,18 @@ Nota,Nome
 10,Mulan
 10,Fiona
 ```
-### Em outro Terminal do Linux dentro do container lab-nifi_kafka1
+### Em outro Terminal do Linux dentro do container nifi_nifi_1
 ```
 docker exec -it lab-nifi_nifi_1 /bin/bash
 cd ~
 cd /tmp/datafolder
 ls -ltr
 ```
+### Opcional
+Criar imagem nova do container de nifi
+```
+docker commit lab-nifi_nifi_1
+docker image ls
+docker tag <IMAGEID> <NOVONOMEIMAGEM>
+```
+---
