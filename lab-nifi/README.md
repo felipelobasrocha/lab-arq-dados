@@ -15,7 +15,7 @@ docker stop $(docker ps -a -q)
 ```
 ---
 
-## Criando o ambiente Kafka com o docker compose
+## Criando o ambiente Nifi com o docker compose
 ### Terminal do Linux
 No diretório /lab-nifi execute o comando abaixo
 ```
