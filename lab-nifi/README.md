@@ -52,6 +52,8 @@ PasswordNIFI!2023@
 ## Criar Hello World
 ### Web Browser
 Criar Processor Group com o nome "Hello World"
+- Arrastar o ícone, da barra de ferramentas superior, para o meio do canvas
+  
 
 Criar Processor GenerateFlowFile
 - Arrastar o ícone, da barra de ferramentas superior, para o meio do canvas
