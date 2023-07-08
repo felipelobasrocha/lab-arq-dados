@@ -55,14 +55,18 @@ Criar Processor Group com o nome "Hello World"
 
 Criar Processor GenerateFlowFile
 - Arrastar o ícone, da barra de ferramentas superior, para o meio do canvas
-- Em Custom Text adicionar qualquer valor
+- Em Custom Text adicionar "Hello World"
 
 Criar Processor PutFile
+- Setar propriedade Directory com
+```
+/tmp/hello
+```
 ### No Terminal do Linux dentro do container lab-nifi_kafka1
 ```
 docker exec -it lab-nifi_nifi_1 /bin/bash
 cd ~
-cd /tmp/datafolder
+cd /tmp/hello
 ls -ltr
 ```
 
@@ -233,7 +237,7 @@ kafka-console-consumer --bootstrap-server localhost:9092 --topic alunos
 ```
 
 ### Web Browser
-Ligar Processors
+Ligar Processors -> Play
 
 ## Consumindo mensagens do Kafka usando Nifi
 ### Web browser
