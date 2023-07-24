@@ -7,3 +7,4 @@ As configurações dos Laboratórios é puramente para fins de desenvolvimento l
 - Docker-Compose
 
 1. LAB NIFI
+2. LAB AIRFLOW
